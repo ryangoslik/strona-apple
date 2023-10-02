@@ -49,8 +49,11 @@ nav{
     justify-content: center;
     color: azure;
     background-color: transparent;
-    padding: 15px;
-    margin: 15px;
+    padding-top: 10px;
+    
+}
+section{
+    padding-bottom: 10px;
 }
 .sekcja1{
     
@@ -63,4 +66,126 @@ nav{
 .sekcja1 h2{
     font-style: 300;
     font-size: 55px;
+    margin-bottom: 0;
+}
+.sekcja1 h3{
+    font-weight: 300;
+    font-style: 300;
+    font-size: 25px;
+    margin-top: 0;
+}
+.sekcja1 h4{
+    font-weight: 300;
+   font-style: 300;
+   font-size: 20px;
+   margin-top: 0;
+   margin-right: 30px;
+   color: dodgerblue;
+}
+.sekcja1 h4:hover{
+    text-decoration: underline;
+    
+}
+.divt{
+    display: flex;
+    justify-content: center;
+}
+.divt:only-child{
+    width: max-content;
+    padding-right: 50px;
+}
+
+.sekcja2{
+    
+    background-image: url(hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+    height: 692px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 692px;
+   
+}
+.sekcja2 h2{
+    font-style: 300;
+    font-size: 55px;
+    margin-bottom: 0;
+    color: black;
+}
+.sekcja2 h3{
+    font-weight: 300;
+    font-style: 300;
+    font-size: 25px;
+    margin-top: 0;
+    color: black;
+}
+.sekcja2 h4{
+    font-weight: 300;
+   font-style: 300;
+   font-size: 20px;
+   margin-top: 0;
+   margin-right: 30px;
+   color: dodgerblue;
+}
+.sekcja2 h4:hover{
+    text-decoration: underline;
+    
+}
+.sekcja2 p{
+    margin-top: 0;
+}
+
+.divt{
+    display: flex;
+    justify-content: center;
+}
+.divt:only-child{
+    width: max-content;
+    padding-right: 50px;
+}
+.sekcja3{
+    
+    background-image: url(hero_apple_watch_series_9_order__d0fi9mb84dci_largetall.jpg);
+    height: 692px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 140% 692px;
+    background-position-x: center;
+}
+
+
+.sekcja3 h3{
+    font-weight: 300;
+    font-style: 300;
+    font-size: 25px;
+    margin-top: 0;
+    color:azure;
+}
+.sekcja3 h4{
+    font-weight: 300;
+   font-style: 300;
+   font-size: 20px;
+   margin-top: 0;
+   margin-right: 30px;
+   color: dodgerblue;
+}
+.sekcja3 h4:hover{
+    text-decoration: underline;
+    
+}
+.sekcja3 img{
+    padding-top: 50px;
+}
+.divt{
+    display: flex;
+    justify-content: center;
+}
+.divt:only-child{
+    width: max-content;
+    padding-right: 50px;
+}
+footer{
+    background-color: lightgray;
+    justify-content: flex-start;
+    
+    width: 100%;
+    height: auto;
 }
